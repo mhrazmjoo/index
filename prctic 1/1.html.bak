@@ -7,7 +7,6 @@
 <button onclick="myFunction()">کلیک کنید</button>
 
 <h2 id="demo"></h2>
-<p>sallam</P>
 
 <script>
 function myFunction() {
