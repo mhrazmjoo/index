@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<h2>بدست آوردن ماه شمسی با وارد کردن شماره</h2>
+<button onclick="myfunction()">کلیک کنید</button>
+
+<h2 id="demo"></h2>
+<body>
+    <script>
+const monthYear =['فروردین' , 'اردیبهشت', 'خرداد', 'تیر ' , 'مرداد' , 'شهریور' , 'مهر ', 'آبان', 'آذر', 'دی', 'بهمن', 'اسفند']
+function myfunction () {
+
+    let number = prompt ("عدد ماه مورد نظر شمسی را وارد نمایید");
+
+    document.getElementById("demo").innerHTML = (monthYear[number - 1]);
+}
+    </script>
+</body>
+</html>
